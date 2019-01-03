@@ -2,9 +2,6 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
-##python manage.py makemigrations
-##python manage.py sqlmigrate blog 0001
-##python manage.py migrate
 
 class Post(models.Model):
     title = models.CharField(max_length=100)
@@ -14,4 +11,3 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-
