@@ -1,1 +1,4 @@
 # gameCheckerProject
+
+
+steamAPI key: D5668492339DD5B4362442F46F1710B8
